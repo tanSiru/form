@@ -14,8 +14,6 @@
     height:80%;
     background-color: #4c4cc9;
     border-radius:5%;
-    display:flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-content: center;
 }
@@ -27,3 +25,43 @@
     justify-content: flex-start;
     align-content: center;
 }
+
+input[type=text]{
+    border:2px solid #4baef4;
+    width:70%;
+    margin:auto;
+    padding: 6px 10px;
+    border-radius:3px;
+}
+
+.namesLabel{
+    margin-left:13%;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+    margin-left:auto;
+}
+
+label{
+    color:#c99bd3;
+    font-family:'lost_ages_personal_useregular';
+}
+
+p{
+    margin-left:3%;
+    color:#4baef4;
+    font-family:'baguilefree_trial';
+}
+
+.langContainer{
+    margin-left:5%;
+    margin-bottom:5%;
+}
+
+.langContainer2{
+    margin-top:1%;
+    margin-left:5%;
+}
+

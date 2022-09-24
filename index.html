@@ -2,21 +2,51 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css"></link>
+        <link rel="stylesheet" href="Baguile/stylesheet.css"></link>
+        <link rel="stylesheet" href="Lost Ages/stylesheet.css"></link>
+
     </head>
 
     <div class="all">
         <div class="formContainer">
             <form class="nameForm">
-                <label for="fname">First Name: </label>
+                <label for="fname" class="namesLabel">First Name: </label>
                 <input type="text" id="fname" size="4"><br>
-                <label for="lname">Last Name: </label>
+                <label for="lname" class="namesLabel">Last Name: </label>
                 <input type="text" id="lname"><br><br>
                 
                 <p>Which of the following have you used before?</p>
-                <input type="checkbox" id="Javascript">
-                <label for=></label> <br>
-                
+                <div class="langContainer">
+                    <input type="checkbox" id="javascript" name="javascript" value="Javascript">
+                        <label for="javascript">Javascript</label><br>
+                    <input type="checkbox" id="python" name="python" value="Python">
+                        <label for="python">Python</label><br>
+                    <input type="checkbox" id="java" name="java" value="Java">
+                        <label for="python">python</label><br>
+                    <input type="checkbox" id="C++" name="C++" value="C++">
+                        <label for="C++">C++</label><br>
+                    <input type="checkbox" id="C#" name="C#" value="C#">
+                        <label for="C#">C#</label><br>
+                    <input type="checkbox" id="C" name="C" value="C">
+                        <label for="C">C</label><br>
+                    <input type="checkbox" id="kotlin" name="kotlin" value="Kotlin">
+                        <label for="kotlin">Kotlin</label><br>
+                </div>
 
+                <p>Which of the following is your fav?</p>
+                <div class="langContainer2">
+                    
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label><br>
+
+                    
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">CSS</label><br>
+
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label><br>
+                    
+                </div>
             </form>
         </div>
     </div>
