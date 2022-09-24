@@ -16,14 +16,14 @@
     border-radius:5%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 
-.formFlex{
+.nameForm{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: flex-start;
+    align-content: center;
 }
