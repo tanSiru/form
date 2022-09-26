@@ -4,12 +4,13 @@
         <link rel="stylesheet" href="stylesheet.css"></link>
         <link rel="stylesheet" href="Baguile/stylesheet.css"></link>
         <link rel="stylesheet" href="Lost Ages/stylesheet.css"></link>
-
     </head>
+
+    <script src="forms.js"></script>
 
     <div class="all">
         <div class="formContainer">
-            <form class="nameForm">
+            <form class="nameForm" id="bruh" method="GET" >
                 <label for="fname" class="namesLabel">First Name: </label>
                 <input type="text" id="fname" size="4"><br>
                 <label for="lname" class="namesLabel">Last Name: </label>
@@ -47,6 +48,8 @@
                         <label for="javascript">JavaScript</label><br>
                     
                 </div>
+                <input type="submit" value="Subscribe" class="btns">
+                <input type="button" name="button" value="Get Forms" onClick="submitResults()" class="btns">
             </form>
         </div>
     </div>
